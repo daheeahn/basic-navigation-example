@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+nav {
+  padding: 32px 32px;
+  min-height: 80px;
+  background: #1f1f1f;
+}
+
+nav > a {
+  vertical-align: bottom;
+}
+
+nav img {
+  max-height: 48px;
+  background-color: white;
+}
+
+nav ul,
+nav ul li,
+.spacer {
+  display: inline-block;
+}
+
+.spacer {
+  /* Parent width - Logo width - Menu <ul> width */
+  width: calc(100% - 132px - 276px);
+}
+
+nav ul {
+  margin-bottom: 15px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+#last-item {
+  margin-right: 0px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(229, 145, 0);
+}
+
+nav ul li a:active {
+  color: rgb(92, 229, 0);
+}
+
+#current-page {
+  color: aquamarine;
+}
+
+#main-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+#service-header {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  height: 700px;
+  /* background-color: pink; */
+}
+
+#service-main {
+  display: inline-block;
+  vertical-align: top;
+  width: 29.5%;
+  height: 500px;
+}
+
+#category-container {
+  background-color: rgb(47, 47, 47);
+  height: 700px;
+}
+
+#category-header {
+  font-size: 35px;
+  text-align: center;
+  line-height: 110px;
+  color: lightgrey;
+}
+
+#category-text-container {
+  text-align: center;
+}
+
+#category-text {
+  font-size: 20px;
+  line-height: 35px;
+  color: lightblue;
+}
+
+footer {
+  background-color: pink;
+}
